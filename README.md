@@ -1,6 +1,6 @@
 # # My-dragon-project
 
-- A Simple project for a Evaluation Front-End Web Developer 
+- This project is a technical evaluation for the position of Full Stack web Developer 
 
 # Extra Features!
 
