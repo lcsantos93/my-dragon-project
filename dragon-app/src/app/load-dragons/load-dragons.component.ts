@@ -40,7 +40,7 @@ export class LoadDragonsComponent implements OnInit, OnDestroy {
 
   private loadAllDragons() {
     this.DragonService.getAll().pipe(first()).subscribe(dragons => {
-      this.dragons = dragons;
+      this.dragons = dragons['items'];
     });
   }
 }
