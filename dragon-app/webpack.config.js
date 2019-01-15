@@ -32,7 +32,8 @@ module.exports = {
     new webpack.DefinePlugin({
       // global app config object
       config: JSON.stringify({
-        apiUrl: 'https://blooming-sands-65355.herokuapp.com/'
+        apiUrl: 'https://blooming-sands-65355.herokuapp.com',
+        apiUrlDragons: 'https://dragons-api.herokuapp.com'
       })
     })
   ],

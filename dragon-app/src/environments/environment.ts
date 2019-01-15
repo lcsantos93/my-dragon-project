@@ -6,5 +6,5 @@
 export const environment =
 {
   production: false,
-  API_URL: 'https://blooming-sands-65355.herokuapp.com/'
+  API_URL: 'https://blooming-sands-65355.herokuapp.com'
 };

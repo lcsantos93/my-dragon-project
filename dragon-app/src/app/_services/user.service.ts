@@ -9,22 +9,22 @@ export class UserService {
   constructor(private http: HttpClient) { }
   private API_URL= environment.API_URL;
   getAll() {
-    return this.http.get<User[]>(`${this.API_URL}/users`);
+    return this.http.get<User[]>(`${config.apiUrl}/users`);
   }
 
   getById(id: number) {
-    return this.http.get(`${this.API_URL}/users/${id}`);
+    return this.http.get(`${config.apiUrl}/users/${id}`);
   }
 
   register(user: User) {
-    return this.http.post(`${this.API_URL}/users/register`, user);
+    return this.http.post(`${config.apiUrl}/users/register`, user);
   }
 
   update(user: User) {
-    return this.http.put(`${this.API_URL}/users/${user.id}`, user);
+    return this.http.put(`${config.apiUrl}/users/${user.id}`, user);
   }
 
   delete(id: number) {
-    return this.http.delete(`${this.API_URL}/users/${id}`);
+    return this.http.delete(`${config.apiUrl}/users/${id}`);
   }
 }
