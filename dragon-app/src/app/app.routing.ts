@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: '', component: LoadDragonsComponent, canActivate: [AuthGuard], outlet:'dragons-display'},
+  { path: '', component: LoadDragonsComponent, outlet:'dragons-display'},
   // otherwise redirect to home
   { path: '**', redirectTo: '' }
 ];
