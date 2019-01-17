@@ -17,7 +17,7 @@ Dillinger uses a number of open source projects to work properly:
 * [AngularJS] - HTML enhanced for web apps!
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps
 * [node.js] - evented I/O for the backend
-
+* [webpack] - is a static module bundler for modern JavaScript applications.
 
 ### Installation
 
@@ -36,4 +36,4 @@ $ npm start
    [jQuery]: <http://jquery.com>
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
-   
+   [webpack]: <http://https://webpack.js.org/>
