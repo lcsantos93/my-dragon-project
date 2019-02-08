@@ -32,7 +32,7 @@ export class LoadDragonsComponent implements OnInit, OnDestroy {
     this.currentUserSubscription.unsubscribe();
   }
 
-  deleteUser(slug: string) {
+  deleteDragon(slug: string) {
     this.DragonService.delete(slug).pipe(first()).subscribe(() => {
       this.loadAllDragons()
     });
